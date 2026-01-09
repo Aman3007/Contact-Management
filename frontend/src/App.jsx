@@ -7,7 +7,7 @@ import TextArea from './components/TextArea';
 import Alert from './components/Alert';
 import ContactCard from './components/ContactCard';
 
-const API_URL = 'http://localhost:5000/api';
+const API_URL = 'https://contact-management-c1hp.onrender.com/api';
 
 function App() {
   const [formData, setFormData] = useState({
